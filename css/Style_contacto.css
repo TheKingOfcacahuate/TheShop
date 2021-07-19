@@ -1,0 +1,153 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+	font-family: 'Roboto' , 'sans-serif';
+}
+
+
+.contenedor{
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+}
+
+.bg_animate{
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(to right, #005C98, #505BDA);
+	position: relative;
+	overflow: hidden;
+
+}
+.header_nav{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.header_nav .contenedor{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 0;
+}
+.header_nav h1{
+	color : #fff;
+	font-family: 'Gagalin';
+}
+.header_nav nav a{
+	color:#fff;
+	text-decoration: none;
+	margin-right: 10px;
+}
+
+.header_nav nav a:hover{
+	color:#1A2849;
+}
+.uno{
+	text-align: center;
+	float: left;
+	width: 400px;
+	height:200px;
+	background:inherit;
+	margin: 1%;
+	border-radius: 20px;
+
+}
+
+.uno p{
+	margin-top: 20%;
+	font-size: 20px;
+	color:#FFF ;
+}
+.dos{
+	text-align: center;
+	float: right;
+	width:400px;
+	height: 200px;
+	background-color: inherit;
+	margin-top: 10%;
+	border-radius: 2px;
+}
+
+.dos p{
+	margin-top: 20%;
+	font-size: 20px;
+	color:#FFF;
+}
+.tres{
+	text-align: center;
+	float: left;
+	width: auto;
+	height:200px;
+	background: inherit;
+	margin-top: 35%;
+	border-radius: 2px;
+}
+
+.tres p {
+	
+	font-size: 20px;
+	color: #FFF;
+}
+
+footer{
+	position: absolute;
+	bottom:0;
+	width:100vw;
+	height:auto;
+	background-color:#1A2849;
+	font-family: "Open Sans";
+	color: #FFF;
+}
+
+.footer_content{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.footer_content h3{
+	font-size: 1.4rem;
+	font-weight: 400;
+	text-transform: capitalize;
+	line-height: 3rem;
+
+}
+.footer_content p{
+	max-width: 500px;
+	margin: 10 px auto;
+	line-height: 28px;
+	font-size: 14px;
+}
+
+.sociales{
+	list-style:none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 1rem 0 3 rem 0;
+}
+.sociales li{
+	margin: 0 10px;
+}
+
+.sociales a{
+	text-decoration: none;
+	color: #FFF;
+}
+.sociales a i{
+	font-size:1.1rem;
+	transition: color 4.s ease;
+
+}
+
+.sociales a:hover i{
+	color :aqua;
+
+}
